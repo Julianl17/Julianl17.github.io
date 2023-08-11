@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,400;1,200&family=Libre+Baskerville:wght@400;700&family=Vina+Sans&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="./images/LOGO.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="./style1.css">
+    <title>Noticas</title>
+</head>
+
+<body>
+    <header id="first">
+        <div id="containerCabecera">
+            <h6 class="logo-">DIGIT@LERS</h6>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="./index.html">INICIO</a></li>
+                <li><a href="contact.asp">CONTACTO</a></li>
+                <li><a href="about.asp">NOSOTROS</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <h2>Las ultimas noticias del curso de Digitalers</h2>
+        <div id="container_all">
+            <section id="noticias">
+                <div class="container-video">
+                    <h3>
+                        <a href="https://flukeout.github.io/">Un juegazo para aprender CSS</a>
+                    </h3>
+                    <iframe class="tutorial" width="560" height="315" src="https://www.youtube.com/embed/SbYdwj5lito"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    <p>Css Sushi es un juegazo para aprender Css. pueden acceder al mismo
+                        <a href="https://flukeout.github.io/">Aqui</a>
+                    </p>
+                </div>
+
+                <article id="noticias_2">
+                    <header>
+                        <h3>
+                            Programacion
+                        </h3>
+                        <img src="./images/PUBLI-F-D.png" class="picture" alt="">
+                    </header>
+                    <p>Recursos para desarrolladores<a
+                            href="https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/The_web_and_web_standards">Aqui</a>
+                    </p>
+                </article>
+                <article id="noticias_2">
+                    <header>
+                        <h3>
+                            GitHub Pages
+                        </h3>
+                        <img src="./images/github-pages-examples.png" class="picture" alt="">
+                    </header>
+                    <p>Sitio webs para ti y tus proyectos<a href="https://pages.github.com/">Aqui</a>
+                    </p>
+                </article>
+            </section>
+
+            <div class="comment-form">
+                <h2>Dejanos tu comentario</h2>
+                <form id="commentForm">
+                    <input type="text" id="name" placeholder="Tu nombre" required>
+                    <textarea id="comment" placeholder="Tu comentario" required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+            <div class="comments-section">
+                <h2>Comentarios</h2>
+                <ul id="commentsList"></ul>
+                <ul>
+                    <li><b>Nicolas Ovejero</b>: Excelente noticias de digitalers</li>
+                </ul>
+                <ul>
+                    <li><b>Santiago Robledo</b>: Muy interesantes las noticias</li>
+                </ul>
+            </div>
+
+        </div>
+
+
+    </main>
+    <footer>
+
+        <div class="container-pie">
+            <p class="txt-pie">Copyrigth - Digitalers &copy;</p>
+        </div>
+
+
+    </footer>
+    <script src="./script.js"></script>
+</body>
+
+</html>

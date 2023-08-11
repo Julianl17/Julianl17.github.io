@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Bokor&family=Coiny&family=Inter:wght@300&family=Kanit:ital,wght@0,300;0,400;1,200&family=Libre+Baskerville:wght@400;700&family=Montserrat:wght@300&family=Nunito:wght@300;400&family=Roboto&family=Rowdies:wght@300;400&family=Vina+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: nunito;
+}
+
+body {
+    background-color: #f7fbfe;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#first {
+    background-color: #0054dc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+
+}
+
+.logo- {
+    font-size: 30px;
+    color: #eaebe6;
+}
+
+.logo-:hover {
+    transform: scale(1.2);
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+
+}
+
+li:hover {
+    transform: scale(1.1);
+}
+
+nav a {
+    color: #eceff1;
+    text-decoration: none;
+}
+
+main {
+    margin: auto;
+}
+
+h1 {
+    margin-top: 30px;
+    text-align: center;
+    color: #1326f8;
+    text-decoration: underline;
+    font-size: 4em;
+}
+
+h2 {
+
+    text-align: center;
+    margin: 20px;
+    font-size: 20px;
+
+}
+#container_all{
+    margin: 100px 100px;
+}
+
+.container-video {
+    width: 400px;
+    background-color: #c6c6c6;
+}
+
+iframe {
+    width: 300px;
+    height: 200px;
+}
+
+#noticias_2 {
+    background-color: #c6c6c6;
+}
+
+
+
+#noticias {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 100px;
+
+}
+
+
+.picture {
+    margin: 20px;
+    width: 300px;
+    height: 200px;
+
+}
+
+p {
+    color: #000000;
+    margin: 0px;
+    padding: 20px;
+}
+
+.container-pie {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer {
+    background-color: #d6680b;
+
+  
+}
+.txt-pie {
+    color: #FFFFFF;
+}
+
+footer p {
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+
+
+
+
+/*Estilos de formulario*/
+
+
+.comment-form,
+.comments-section {
+    width: 30%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 100px;
+}
+
+input,
+textarea {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 400px) {
+    #deja_tu_comentario {
+        width: 100%;
+        margin: auto 0;
+    }
+
+    #noticias {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #comentarios {
+        width: 100%;
+    }
+}
+
+@media (max-width: 800px) {
+    #deja_tu_comentario {
+        width: 100%;
+    }
+}
